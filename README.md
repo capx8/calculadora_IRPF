@@ -10,9 +10,11 @@ Cálculo Progressivo do INSS: Deduz a contribuição previdenciária (baseada na
 
 Lógica da Nova Isenção: Aplica isenção total para bases de cálculo até R$ 5.000,00.
 
-Fórmula de Transição: Implementa a lógica matemática de redução (D = 978,62 - 0,133145 * R) para salários na faixa de transição (até R$ 7.350,00).
+Fórmula de Transição: Implementa a lógica matemática de redução para salários na faixa de transição (até R$ 7.350,00):
 
-Detalhamento Visual: Exibe o passo a passo da conta (Bruto -> INSS -> Base -> Desconto -> Líquido).
+D = 978,62 - 0,133145 * R
+
+Detalhamento Visual: Exibe o passo a passo da conta (Bruto → INSS → Base → Desconto → Líquido).
 
 🛠️ Tecnologias Utilizadas
 
@@ -69,6 +71,8 @@ Baixe o arquivo index.html.
 Abra-o em qualquer navegador moderno (Chrome, Firefox, Edge, Safari).
 
 Requisito: É necessário conexão com a internet para carregar o Tailwind CSS e o FontAwesome (CDN).
+
+🌐 Acesso Online: https://capx8.github.io/calculadora_IRPF/
 
 ⚠️ Aviso Legal
 
